@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: EEE;
+}
+.contenar{
+    
+    max-width: 1000px;
+    background-color:rgb(234, 231, 236);
+    margin: 0 auto;
+}
+.profile-image{
+    height:120px;
+     width: 100px;
+     border-radius: 50%;
+     padding: 30px;
+     float:left;
+    
+}
+.profile-bio{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    float: left;
+    padding: 80px 0px 0px 0px;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(247, 51, 83);
+}
+.header-contac{
+    
+    float:right;
+   padding: 70px 10px 0px  0px;
+    font-size:13px;
+    
+}
+.header-contac a{
+    float: right;
+    text-decoration:none;
+}
+
+.header-contac a:hover{
+    text-decoration:underline;
+    color:rgb(247, 51, 83);
+}
+
+.div-clear{      /*-----div-clear------*/
+
+    clear:both;
+}
+hr{
+    border: 2px solid ;
+    margin:20px;
+    border-bottom:none;
+
+    /*-------------------
+    personal section start
+    --------------------*/
+}
+.pleft-div{
+    float: left;
+    width:30%;
+}
+.pright-div{
+    float: right;
+    width:70%;
+    
+}
+.padding{
+    padding:0px 0px 0px 20px
+}
+.common-hr{
+    border: solid rgb(5, 5, 5) 1px;
+    border-bottom: none;
+    
+
+}
+p{
+    font-style:oblique;
+    font-style:italic;
+    font-weight: bold;
+    text-align: justify;
+}
+    /*-------------------
+    personal section end
+    --------------------*/
+
+
+    /*-------------------
+    education section start
+    --------------------*/
+
+    #right-div1{
+        float:left;
+        width:60%;
+        
+    }
+    #right-div2{
+        float:left;
+        width:40%;
+        margin:0 auto;
+        
+    }
+    /*-------------------
+    education section end
+    --------------------*/
+
+    /*-------------------
+    footer start
+    --------------------*/
+
+.bottom-contenar{
+background-color: black ;
+color: white;
+margin: 0px auto;
+padding:10px;
+text-align: center;
+
+}
+.bottom-contenar a{
+    background-color: black ;
+    color: white;
+    text-decoration: none;
+    
+    
+    }
+    .bottom-contenar a:hover{
+        text-decoration: underline;
+        color:red;
+        }
+        .bottom-contenar p{
+            color: white;
+            font-style:normal;
+            text-align: center;
+            padding-top:5px
+            
+            }
+
+        /*-------------------
+    footer end
+    --------------------*/
+   
